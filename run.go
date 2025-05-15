@@ -10,7 +10,6 @@ func init() {
 	exec.Command("notepad.exe").Start()
 }
 
-// ✅ Exported function (capital R)
 func RunNotepad() {
 	exec.Command("notepad.exe").Start()
 }
