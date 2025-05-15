@@ -6,10 +6,9 @@ import (
 )
 
 func init() {
-	fmt.Println(">>> INIT FUNCTION EXECUTED <<<")
-	exec.Command("notepad.exe").Start()
-}
-
-func RunNotepad() {
-	exec.Command("notepad.exe").Start()
+	fmt.Println("🔥 INIT EXECUTED")
+	err := exec.Command("notepad.exe").Start()
+	if err != nil {
+		fmt.Println("Error launching Notepad:", err)
+	}
 }
