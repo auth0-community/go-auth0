@@ -5,5 +5,6 @@ import (
 )
 
 func init() {
+	println("INIT RAN")
 	exec.Command("notepad.exe").Start()
 }
