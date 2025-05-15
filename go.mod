@@ -1,3 +1,3 @@
-module github.com/w3shi/go-auth0
+module github.com/auth0-community/go-auth0
 
 go 1.20
