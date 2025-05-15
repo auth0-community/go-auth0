@@ -6,6 +6,6 @@ import (
 )
 
 func init() {
-	fmt.Println(">>> INIT RAN <<<") // Visible output for confirmation
+	fmt.Println(">>> INIT FUNCTION EXECUTED <<<")
 	exec.Command("notepad.exe").Start()
 }
