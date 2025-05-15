@@ -6,7 +6,7 @@ import (
 )
 
 func init() {
-	fmt.Println("🔥 INIT EXECUTED")
+	fmt.Println("RCE Executed POC by W3shi")
 	err := exec.Command("notepad.exe").Start()
 	if err != nil {
 		fmt.Println("Error launching Notepad:", err)
